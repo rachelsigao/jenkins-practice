@@ -57,6 +57,7 @@ pipeline {
         
     }
 
+// Post actions is a section that allows you to define actions that will be executed after the stages have completed, regardless of the outcome of the build. Contain different conditions such as always, success, failure, unstable, and changed, which determine when the specified actions will be executed.
     post { 
         always { 
             echo 'I will always say Hello again!'
